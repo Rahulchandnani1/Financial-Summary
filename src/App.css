@@ -1,0 +1,46 @@
+@media print {
+  body {
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .MuiTableContainer-root {
+    page-break-before: auto;
+    page-break-after: auto;
+    page-break-inside: avoid;
+  }
+
+  .MuiTable-root {
+    width: 100%;
+    table-layout: fixed;
+  }
+
+  .MuiTableCell-root {
+    padding: 8px;
+  }
+}
+
+th {
+  background: lightsteelblue;
+  color: darkblue !important;
+  padding: 16px 16px 16px 6px !important;
+  font-size: 1vw !important;
+}
+
+td {
+  border-right: 1px solid lightgray;
+  padding: 16px 8px 16px 2px !important;
+  font-size: 0.9vw !important;
+}
+
+.MuiFormControl-root {
+  float: right;
+  margin-left: 2% !important;
+}
+
+.MuiButton-root {
+  margin-right: 20px !important;
+}
