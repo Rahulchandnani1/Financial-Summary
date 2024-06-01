@@ -5,6 +5,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
+### `npm i`  
+to install the dependencies first and then to start the project run below command:
+
 
 ### `npm start`
 
@@ -13,6 +16,14 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+Steps to interact:
+1 On starting the app, 10 rows will be shown.
+2 User can change the values to different decimal points 0,1 and 2.
+3 User can also change the currency to Dollar, Euro etc.
+4 On drag and drop the icon present on first column user can change the order of rows.
+5 On click on print it can come on A4 page.
+6 On click on previous and next button present below next or previous 10 items will come.
 
 ### `npm test`
 
